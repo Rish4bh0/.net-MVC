@@ -1,0 +1,21 @@
+﻿@model Rentalmandu.Models.Rental
+
+@{
+    ViewData["Title"] = "Cancel Rental";
+}
+
+<h1>Cancel Rental</h1>
+
+<div class="card">
+    <h3">
+        Car Details</h3>
+        <p>Car Name: @Model.CarInfo.CarName</p>
+        <img src="~/images/@Model.CarInfo.CarImage" alt="Car Image" height="100" width="100" />
+</div>
+
+<p>Are you sure you want to cancel the rental?</p>
+
+<form asp-action="CancelConfirmed" asp-route-id="@Model.Id" method="post">
+    <input type="submit" value="Confirm Cancel" class="btn btn-danger" />
+    <a asp-action="RentalHistory" class="btn btn-secondary">Go back</a>
+</form>

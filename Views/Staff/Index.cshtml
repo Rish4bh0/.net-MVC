@@ -1,0 +1,50 @@
+﻿@using Rentalmandu.Areas.Identity.Data;
+
+@model IEnumerable<(HajurKoCarRentalUser User, IList<string> Roles)>
+
+<style>
+    .h-effect:hover {
+        border-radius: 25px;
+        text-decoration: line-through;
+    }
+</style>
+
+<h1>Staff Members</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr style="background-color: #7289DA">
+            <th>Email</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <th>Roles</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var staffMember in Model)
+        {
+            <tr style="color: black">
+                <td>@staffMember.User.Email</td>
+                <td>@staffMember.User.FirstName</td>
+                <td>@staffMember.User.LastName</td>
+                <td>@staffMember.User.Address</td>
+                <td>@staffMember.User.PhoneNumber</td>
+                <td>
+                    @foreach (var role in staffMember.Roles)
+                    {
+                        <span>@role</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@staffMember.User.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@staffMember.User.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-success h-effect">Add</a>

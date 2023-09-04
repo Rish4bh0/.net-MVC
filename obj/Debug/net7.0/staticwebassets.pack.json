@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Hajurkocarrental.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Hajurkocarrental.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\css\\CRUD.css",
+      "PackagePath": "staticwebassets\\css\\CRUD.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\Relational_20230502191307919_2b4qn4conw5.png",
+      "PackagePath": "staticwebassets\\documents\\Relational_20230502191307919_2b4qn4conw5.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\Relational_20230502191354310_iqybknnhbe5.png",
+      "PackagePath": "staticwebassets\\documents\\Relational_20230502191354310_iqybknnhbe5.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\e6b0d006-e462-40c9-aa6a-a9beac13d684.pdf",
+      "PackagePath": "staticwebassets\\documents\\e6b0d006-e462-40c9-aa6a-a9beac13d684.pdf"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230502191434094_fxi0u3obwxt.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230502191434094_fxi0u3obwxt.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230502191434097_5v4s4bkyete.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230502191434097_5v4s4bkyete.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230502195722844_ez0vmv1qu23.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230502195722844_ez0vmv1qu23.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230502195722852_vlazbocmttc.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230502195722852_vlazbocmttc.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230502195810562_iqkac2y1fvd.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230502195810562_iqkac2y1fvd.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230502195810577_q0z4dxl22hw.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230502195810577_q0z4dxl22hw.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230502195858850_tzw3e50ylgu.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230502195858850_tzw3e50ylgu.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230502195858853_t5koeiuu0bm.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230502195858853_t5koeiuu0bm.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230503090348628_gqqamgjgtrx.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230503090348628_gqqamgjgtrx.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230503093824281_fvzgmjqz1p1.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230503093824281_fvzgmjqz1p1.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230503093824285_cpiwms0orzr.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230503093824285_cpiwms0orzr.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230507212005518_hhxef51or1g.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230507212005518_hhxef51or1g.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230508005857452_z3z50hwoqhz.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230508005857452_z3z50hwoqhz.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230508005857461_knpafke5n15.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230508005857461_knpafke5n15.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230508014244597_ojzlxmq0jop.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230508014244597_ojzlxmq0jop.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230508014516905_1o4pawyzkjy.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230508014516905_1o4pawyzkjy.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230508014517248_lqne0b4tmma.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230508014517248_lqne0b4tmma.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\erd_20230508014704523_vzdpba5bcxj.png",
+      "PackagePath": "staticwebassets\\documents\\erd_20230508014704523_vzdpba5bcxj.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\f59a3ceb-facf-4d6c-ae41-8002e76b1abf.pdf",
+      "PackagePath": "staticwebassets\\documents\\f59a3ceb-facf-4d6c-ae41-8002e76b1abf.pdf"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\images_20230508014244585_nouhao35yai.jpg",
+      "PackagePath": "staticwebassets\\documents\\images_20230508014244585_nouhao35yai.jpg"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\img_6212df40ef951_20230508014704521_jnzms15bnhq.png",
+      "PackagePath": "staticwebassets\\documents\\img_6212df40ef951_20230508014704521_jnzms15bnhq.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\logo1_20230502191307942_qm4tj1lzzte.png",
+      "PackagePath": "staticwebassets\\documents\\logo1_20230502191307942_qm4tj1lzzte.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\logo1_20230502191354597_t4l2e0ifgq3.png",
+      "PackagePath": "staticwebassets\\documents\\logo1_20230502191354597_t4l2e0ifgq3.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\logo1_20230507212005512_qspa5yhtjhq.png",
+      "PackagePath": "staticwebassets\\documents\\logo1_20230507212005512_qspa5yhtjhq.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\documents\\model-view-controller-light-blue_20230503090348618_dko42czl3zc.png",
+      "PackagePath": "staticwebassets\\documents\\model-view-controller-light-blue_20230503090348618_dko42czl3zc.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\images\\defaultCarImage.png",
+      "PackagePath": "staticwebassets\\images\\defaultCarImage.png"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Rentalmandu\\Rentalmandu\\Rentalmandu\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Hajurkocarrental.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Hajurkocarrental.props",
+      "PackagePath": "build\\Hajurkocarrental.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Hajurkocarrental.props",
+      "PackagePath": "buildMultiTargeting\\Hajurkocarrental.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Hajurkocarrental.props",
+      "PackagePath": "buildTransitive\\Hajurkocarrental.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

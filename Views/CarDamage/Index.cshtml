@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Rentalmandu.Models.CarDamage>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    .h-effect:hover {
+        border-radius: 25px;
+        text-decoration: line-through;
+    }
+</style>
+
+<h1>Damage</h1>
+
+<p class="h-effect">
+    <a asp-action="Create" class="bg-success text-light p-2" style="text-decoration: none">Create New</a>
+</p>
+<table class="table table table-bordered border-dark">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.charge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsPaid)
+            </th>
+
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody style="color: black">
+        @foreach (var item in Model)
+        {
+                <tr>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.description)
+                    </td>
+                    <td>
+                    @if (item.charge == null)
+                    {
+                                <span>Pending</span>
+                    }
+                    else
+                    {
+                        @Html.DisplayFor(modelItem => item.charge)
+                    }
+                    </td>
+                    <td>
+                    @if (item.IsPaid == false)
+                    {
+                                <span>Pending</span>
+                    }
+                    else
+                    {
+                                <span>Paid</span>
+                    }
+                    </td>
+
+                    <td>
+                    @if (!item.IsPaid)
+                    {
+                                <a asp-action="Paid" asp-route-id="@item.id" class="btn btn-primary">Mark as Paid</a>
+                    }
+                        <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+
+</table>

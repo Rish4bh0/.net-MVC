@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Rentalmandu.Models.Notification>
+
+@{
+    ViewData["Title"] = "Notifications";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Notifications</h2>
+
+@if (Model.Any())
+{
+    foreach (var notification in Model)
+    {
+                <div class="notification">
+                    <h4>@notification.Title</h4>
+                    <p>@notification.Message</p>
+                    <p>@notification.CreatedAt.ToString("yyyy-MM-dd HH:mm:ss")</p>
+                </div>
+    }
+}
+else
+{
+        <p>No notifications found.</p>
+}

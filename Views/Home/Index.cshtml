@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Rentalmandu.Models.CarInfo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<style>
+    .h-effect:hover {
+        border-radius: 25px;
+        text-decoration: line-through;
+    }
+</style>
+<div class="title">
+    <h1 style="text-decoration: line-through" class="font-monospace">RentalMandu</h1>
+</div>
+
+<div class="container-fluid">
+    <div class="row justify-content-end">
+        <div class="col-auto bg-success h-effect rounded-2">
+            <a href="@Url.Action("Index", "Notification")">
+                <p class="text-white" style="color: white; text-decoration: none">Notification</p>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<br />
+
+<div class="row">
+    @foreach (var car in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="@((car.CarImage != "") ? Url.Content("~/images/" + car.CarImage) : Url.Content("~/images/background.jpg"))" class="card-img-top" alt="Car Image" height="400" width="50">
+
+                <div class="card-body">
+                    <h5 class="card-title">@car.CarName</h5>
+                    <p class="card-text">Model: @car.Model</p>
+                    <p class="card-text">Price Per Day: $@car.PricePerDay</p>
+                    <p class="card-text">Availability: @(car.IsAvailable ? "Available" : "Not Available")</p>
+                    @if (car.IsAvailable)
+                    {
+                        <a href="@Url.Action("Rent", "Rental", new { id = car.id })" class="btn btn-outline-success">Rent</a>
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .title {
+        text-align: center;
+        color: darkslategrey;
+        text-transform: uppercase;
+    }
+</style>
+
+

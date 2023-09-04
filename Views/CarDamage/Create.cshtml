@@ -1,0 +1,54 @@
+﻿@model Rentalmandu.Models.CarDamage
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<style>
+    .h-effect:hover{
+        border-radius: 25px;
+        text-decoration: line-through;
+    }
+</style>
+
+<h1>Create</h1>
+
+<h4>Car damage</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="row">
+
+            <div class="col-md-5">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="description" class="control-label"></label>
+                <input asp-for="description" class="form-control" />
+                <span asp-validation-for="description" class="text-danger"></span>
+            </div>
+            </div>
+                <div class="col-md-5">
+            <div class="form-group">
+                <label asp-for="RentalID" class="control-label"></label>
+                <select asp-for="RentalID" class="form-control" asp-items="@(new SelectList(ViewBag.RentalID, "Value", "Text"))"></select>
+            </div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-success mt-3 mb-2 h-effect" />
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" style="text-decoration: none; background-color: green; color: white; padding: 5px;" class="h-effect">Back</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

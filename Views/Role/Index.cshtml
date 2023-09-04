@@ -1,0 +1,43 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<IdentityRole>
+
+@{
+    ViewData["Title"] = "Roles";
+}
+
+<style>
+    .h-effect:hover {
+        border-radius: 25px;
+        text-decoration: line-through;
+    }
+</style>
+
+<h1>View Roles</h1>
+
+<p class="bg-primary text-white text-center rounded-3 h-effect" style="width: 100px;">
+    <a asp-action="Create" class="text-white h-effect" style="text-decoration: none">Create Role</a>
+</p>
+
+<table class="table table-bordered" style="background-color: #7289DA">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Id)</th>
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

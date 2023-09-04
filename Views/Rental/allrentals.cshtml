@@ -1,0 +1,67 @@
+﻿@model List<Rentalmandu.Models.Rental>
+@{
+    ViewData["Title"] = "All Rentals";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="get">
+    <label>Select a date:</label>
+    <select name="selectedDate" onchange="this.form.submit()">
+        <option value="">--Select--</option>
+        @foreach (var rental in Model.Select(x => x.date).Distinct())
+        {
+            <option value="@rental.ToString("yyyy-MM-dd")">@rental.ToString("dd/MM/yyyy")</option>
+        }
+    </select>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Authorized By</th>
+                <th>Car Model</th>
+                <th>Rental Status</th>
+                <th>Rental Date</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rental in Model)
+            {
+                <tr>
+                    <td>@rental.User.FirstName @rental.User.LastName</td>
+                    <td>@rental.AuthorizedBy</td>
+                    <td>@rental.CarInfo.Model</td>
+                    <td>
+                        @if (rental.RentalStatus == 0)
+                        {
+
+                            <span>Requested</span>
+                        }
+                        else if (rental.RentalStatus == 1)
+                        {
+
+                            <span>Approved</span>
+                        }
+                        else if (rental.RentalStatus == 2)
+                        {
+
+                            <span>Returned</span>
+                        }
+
+                    </td>
+                    <td>@rental.date.ToString("dd/MM/yyyy")</td>
+                    <td>@rental.Fee.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No rentals found.</p>
+}

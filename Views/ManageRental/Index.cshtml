@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Rentalmandu.Models.Rental>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Rental Request</h1>
+
+<link rel="stylesheet" href="~/css/CRUD.css" asp-append-version="true" />
+
+<p>
+    <button type="button" class="btn btn-outline-sucess" onclick="location.href='@Url.Action("Create")'">Create New</button>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AuthorizedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.date)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Fee)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RentalStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarInfo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedAt)
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+                <tr>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.UserID)
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.AuthorizedBy)
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.date)
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.Fee)
+                    </td>
+                    <td>
+                    @if (item.RentalStatus == 0)
+                    {
+
+                                <span>Requested</span>
+                    }
+                    else if (item.RentalStatus == 1)
+                    {
+
+                                <span>Approved</span>
+                    }
+                    else if (item.RentalStatus == 2)
+                    {
+
+                                <span>Returned</span>
+                    }
+
+                    </td>
+
+
+                    <td>
+                    @Html.DisplayFor(modelItem => item.CarInfo.CarName)
+                    </td>
+                    <td>
+                    @Html.DisplayFor(modelItem => item.CreatedAt)
+                    </td>
+                    <td>
+                    @if (item.RentalStatus == 0)
+                    {
+                                <a asp-action="AcceptRequest" asp-route-id="@item.Id">Accept Request</a>
+                    }
+                    else if (item.RentalStatus == 1)
+                    {
+                                <a asp-action="ReturnRent" asp-route-id="@item.Id">Return Rent</a>
+                    }
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Rentalmandu.Models.Offer>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Offer</h1>
+
+<p class="bg-success rounded-3" style="width: 140px;">
+    <a asp-action="Create" style="text-decoration: none" class="p-4 text-white">Create New</a>
+</p>
+<table class="table table-bordered" style="background-color: #7289DA">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CarInfo.CarName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CarInfo.CarName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Discount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.id" style="text-decoration: none">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.id" style="text-decoration: none">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.id" style="text-decoration: none">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

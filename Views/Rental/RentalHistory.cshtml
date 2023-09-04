@@ -1,0 +1,68 @@
+﻿@model List<Rentalmandu.Models.Rental>
+
+@{
+    ViewData["Title"] = "Requested Rentals";
+}
+
+<h1>Your Rental History</h1>
+
+@if (Model.Count == 0)
+{
+    <p>No Rentals Found.</p>
+}
+else
+{
+    <table class="table table table-bordered">
+        <thead>
+            <tr>
+                <th>Customer Name</th>
+                <th>Authorized By</th>
+                <th>Rental Date</th>
+                <th>Fee</th>
+                <th>Rental Status</th>
+                <th>Car Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rental in Model)
+            {
+                <tr>
+                    <td>@rental.User.FirstName @rental.User.LastName</td>
+                    <td>@rental.AuthorizedBy</td>
+                    <td>@rental.date</td>
+                    <td>@rental.Fee</td>
+                    <td>
+                        @if (rental.RentalStatus == 0)
+                        {
+
+                            <span>Requested</span>
+                        }
+                        else if (rental.RentalStatus == 1)
+                        {
+
+                            <span>Approved</span>
+                        }
+                        else if (rental.RentalStatus == 2)
+                        {
+
+                            <span>Returned</span>
+                        }
+
+                    </td>
+                    <td>@rental.CarInfo.CarName</td>
+                    <td>
+                        @if (rental.RentalStatus == 0 || rental.RentalStatus == 1)
+                        {
+                            <a asp-action="Cancel" asp-route-id="@rental.Id">Cancel Rent</a>
+
+                        }
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    
+}
+

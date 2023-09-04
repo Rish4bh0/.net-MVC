@@ -1,0 +1,90 @@
+﻿@model IEnumerable<Rentalmandu.Models.CarInfo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/CRUD.css" asp-append-version="true" />
+</head>
+<body>
+
+<h1>New Car</h1>
+
+    <button type="button" class="btn btn-outline-sucess" onclick="location.href='@Url.Action("Create")'">Create New</button>
+
+
+
+    <div>
+        <a asp-action="CarAvailable" class="btn btn-outline-primary">Car Available</a>
+        <a asp-action="CarOnRent" class="btn btn-outline-primary">Car on Rent</a>
+        <a asp-controller="Rental" asp-action="FrequentlyNotRentedCars" class="btn btn-outline-primary">Not Frequently Rented Cars</a>
+        <a asp-controller="Rental" asp-action="frequentlyrentedcars" class="btn btn-outline-primary">Frequently Rented Cars</a>
+        
+    </div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                    @Html.DisplayNameFor(model => model.CarImage)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.CarName)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.Brand)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.Model)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.PricePerDay)
+            </th>
+            <th>
+                    @Html.DisplayNameFor(model => model.IsAvailable)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <div style="border: 1px solid #ccc; padding: 10px; width: 200px; height: 200px; overflow: hidden;">
+                            <img src="~/images/@item.CarImage" alt="Car Image" height="100" width="100" />
+                        </div>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CarName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Brand)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Model)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PricePerDay)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.IsAvailable)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                    </td>
+                </tr>
+            }
+
+    </tbody>
+</table>
+
+</body>
+</html>

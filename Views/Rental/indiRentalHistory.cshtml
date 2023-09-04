@@ -1,0 +1,30 @@
+﻿@using Rentalmandu.Areas.Identity.Data
+@model List<Rentalmandu.Models.Rental>
+
+<h1>Individual Customer Rental History</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Customer Name</th>
+            <th>Authorized By</th>
+            <th>Car Model</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Total Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var rental in Model)
+        {
+            <tr>
+                <td>@rental.User.FirstName @rental.User.LastName</td>
+                <td>@rental.AuthorizedBy</td>
+                <td>@rental.CarInfo.Model</td>
+                <td>@rental.date.ToString("dd/MM/yyyy")</td>
+                <td>@rental.CreatedAt.ToString("dd/MM/yyyy")</td>
+                <td>@rental.Fee.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,75 @@
+﻿@model RegisterViewModel
+
+<h1>New Staff</h1>
+
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+<style>
+    .h-effect:hover {
+        border-radius: 25px;
+        text-decoration: line-through;
+    }
+</style>
+
+<div class="card rounded-3">
+
+    <div class="card-body bg-secondary">
+
+        <form asp-action="Create" method="post">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group" style="color: black">
+                        <label asp-for="FirstName">First Name</label>
+                        <input asp-for="FirstName" class="form-control" />
+                        <span asp-validation-for="FirstName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="color: black">
+                        <label asp-for="LastName">Last Name</label>
+                        <input asp-for="LastName" class="form-control" />
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="color: black">
+                        <label asp-for="Email">Email</label>
+                        <input asp-for="Email" class="form-control" />
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="color: black">
+                        <label asp-for="Password">Password</label>
+                        <input asp-for="Password" type="password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="color: black">
+                        <label asp-for="ConfirmPassword">Confirm Password</label>
+                        <input asp-for="ConfirmPassword" type="password" class="form-control" />
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group" style="color: black">
+                        <label asp-for="Address">Address</label>
+                        <input asp-for="Address" class="form-control" />
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="color: black">
+                        <label asp-for="PhoneNumber">Phone Number</label>
+                        <input asp-for="PhoneNumber" class="form-control" />
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                    <div class="form-group" style="color: black">
+                        <label asp-for="role">Is Admin</label>
+                        <input asp-for="role" type="radio" value="admin" />
+                    </div>
+                    <div class="form-group" style="color: black">
+                        <label asp-for="role">Is Staff</label>
+                        <input asp-for="role" type="radio" value="staff" checked />
+                    </div>
+                    <br />
+                    <div class="form-group" style="color: black">
+                        <input type="submit" value="Create" class="btn btn-success h-effect" />
+                        <a asp-action="Index" class="btn btn-danger h-effect">Cancel</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
